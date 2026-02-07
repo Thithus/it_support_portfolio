@@ -1,4 +1,3 @@
-````md
 # Project 01 – Forest Root Domain Controller Deployment
 
 ## Project Summary
@@ -7,11 +6,12 @@ This project involved deploying a centralized identity management infrastructure
 ---
 
 ## Environment
-Operating System: Windows Server 2022  
-Hypervisor: VirtualBox  
-Server Name: DC-1  
-Domain Name: landonhotel.local  
-Role Installed: Active Directory Domain Services (AD DS) + DNS
+
+- Operating System: Windows Server 2022  
+- Hypervisor: VirtualBox  
+- Server Name: DC-1  
+- Domain Name: landonhotel.local  
+- Role Installed: Active Directory Domain Services (AD DS) + DNS  
 
 ---
 
@@ -71,42 +71,32 @@ Executed command:
 
 ```cmd
 net share
-````
-
 Verified SYSVOL and NETLOGON shares were successfully created.
 
-![SYSVOL NETLOGON Shares](images/7-netlogon.png)
 
----
 
-## Result
-
+Result
 The server was successfully promoted to a Forest Root Domain Controller. Active Directory, DNS, and domain authentication services were fully operational.
 
----
-
-## Infrastructure Impact
-
+Infrastructure Impact
 Centralized authentication enabled
+
 User and computer management established
+
 Foundation for Group Policy deployment created
+
 Enterprise identity infrastructure operational
 
----
-
-## Tools Used
-
+Tools Used
 Server Manager
+
 Active Directory Domain Services
+
 DNS Manager
+
 Active Directory Users and Computers
+
 Command Prompt
 
----
-
-## Project Outcome
-
-Successfully deployed a production-ready Forest Root Domain Controller for the **landonhotel.local** enterprise lab environment.
-
-```
-```
+Project Outcome
+Successfully deployed a production-ready Forest Root Domain Controller for the landonhotel.local enterprise lab environment.
