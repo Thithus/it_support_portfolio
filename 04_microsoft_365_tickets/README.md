@@ -10,7 +10,7 @@ All labs were performed in a Microsoft 365 trial tenant environment and document
 
 ## 🔗 GitHub Portfolio
 
-[https://github.com/Thithus/it_support_portfolio](https://github.com/Thithus/it_support_portfolio)
+[https://github.com/Thithus/it_support_portfolio]([https://github.com/Thithus/it_support_portfolio](https://github.com/Thithus/it_support_portfolio/tree/main/04_microsoft_365_tickets))
 
 ---
 
@@ -204,3 +204,4 @@ GitHub Portfolio:
 ---
 
 ⭐ Additional Microsoft 365, Azure, and Security labs will continue to be added as part of ongoing cloud administration skill development.
+
