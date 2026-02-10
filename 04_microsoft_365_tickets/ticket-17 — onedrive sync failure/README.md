@@ -1,4 +1,4 @@
-# ticket-17 — onedrive sync failure
+# Ticket-17 — OneDrive Sync Failure
 
 ## Objective
 Diagnose and resolve a OneDrive sync failure caused by disabled SharePoint (OneDrive backend storage) service assignment within a licensed Microsoft 365 user account.
@@ -83,3 +83,4 @@ Confirmed storage service assignment restored successfully.
 ## Outcome
 
 OneDrive sync functionality was restored by re-enabling the SharePoint Online storage service within the assigned Microsoft 365 license configuration.
+
