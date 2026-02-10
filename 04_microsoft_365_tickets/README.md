@@ -8,25 +8,25 @@ All labs were performed in a Microsoft 365 trial tenant environment and document
 
 ---
 
-## 🔗 GitHub Portfolio
+## 🔗 Microsoft 365 Lab Portfolio Folder
 
-[https://github.com/Thithus/it_support_portfolio]([https://github.com/Thithus/it_support_portfolio](https://github.com/Thithus/it_support_portfolio/tree/main/04_microsoft_365_tickets))
+https://github.com/Thithus/it_support_portfolio/tree/main/04_microsoft_365_tickets
 
 ---
 
 # 🛠️ Lab Environment
 
-* **Platform:** Microsoft 365 Admin Center
-* **Tenant Type:** Microsoft 365 E5 Trial / Developer Environment
-* **Admin Portal:** [https://admin.microsoft.com](https://admin.microsoft.com)
+* **Platform:** Microsoft 365 Admin Center  
+* **Tenant Type:** Microsoft 365 E5 Trial / Developer Environment  
+* **Admin Portal:** https://admin.microsoft.com  
 
 ### Services Covered
 
-* Azure AD (Entra ID)
-* Microsoft Teams
-* Exchange Online
-* SharePoint Online
-* OneDrive for Business
+* Azure AD (Entra ID)  
+* Microsoft Teams  
+* Exchange Online  
+* SharePoint Online  
+* OneDrive for Business  
 
 ---
 
@@ -34,13 +34,13 @@ All labs were performed in a Microsoft 365 trial tenant environment and document
 
 The goal of these labs was to build real-world, job-ready skills in:
 
-* Microsoft 365 tenant administration
-* User identity & license management
-* Collaboration platform troubleshooting
-* Exchange mailbox provisioning
-* Shared mailbox delegation
-* Cloud storage service diagnostics
-* Service workload assignment analysis
+* Microsoft 365 tenant administration  
+* User identity & license management  
+* Collaboration platform troubleshooting  
+* Exchange mailbox provisioning  
+* Shared mailbox delegation  
+* Cloud storage service diagnostics  
+* Service workload assignment analysis  
 
 ---
 
@@ -48,11 +48,11 @@ The goal of these labs was to build real-world, job-ready skills in:
 
 Each lab simulates a real enterprise helpdesk or cloud support incident and follows a consistent troubleshooting workflow:
 
-* Issue simulation
-* Service impact analysis
-* Root cause identification
-* Administrative remediation
-* Validation & restoration testing
+* Issue simulation  
+* Service impact analysis  
+* Root cause identification  
+* Administrative remediation  
+* Validation & restoration testing  
 
 ---
 
@@ -62,12 +62,12 @@ Deployed and configured a Microsoft 365 tenant environment using a developer/tri
 
 **Key Skills**
 
-* Tenant provisioning
-* Admin center navigation
-* License subscription review
-* Cloud service validation
+* Tenant provisioning  
+* Admin center navigation  
+* License subscription review  
+* Cloud service validation  
 
-📄 **Project File**
+📄 **Project File**  
 `11-M365-Tenant-Deployment.md`
 
 ---
@@ -78,12 +78,12 @@ Simulated enterprise user onboarding by provisioning a new cloud identity and as
 
 **Key Skills**
 
-* Azure AD user provisioning
-* License assignment
-* Service plan configuration
-* Identity administration
+* Azure AD user provisioning  
+* License assignment  
+* Service plan configuration  
+* Identity administration  
 
-📄 **Project File**
+📄 **Project File**  
 `12-User-License-Assignment.md`
 
 ---
@@ -94,12 +94,12 @@ Simulated Microsoft Teams access failure caused by disabled service assignment a
 
 **Key Skills**
 
-* Teams service diagnostics
-* License workload analysis
-* Collaboration access restoration
-* Service provisioning validation
+* Teams service diagnostics  
+* License workload analysis  
+* Collaboration access restoration  
+* Service provisioning validation  
 
-📄 **Project File**
+📄 **Project File**  
 `14-Teams-Access-Troubleshooting.md`
 
 ---
@@ -110,12 +110,12 @@ Simulated mailbox access failure by disabling Exchange Online services and resto
 
 **Key Skills**
 
-* Exchange Online administration
-* Mailbox provisioning troubleshooting
-* License dependency analysis
-* Outlook access restoration
+* Exchange Online administration  
+* Mailbox provisioning troubleshooting  
+* License dependency analysis  
+* Outlook access restoration  
 
-📄 **Project File**
+📄 **Project File**  
 `15-Mailbox-Provisioning-Troubleshooting.md`
 
 ---
@@ -126,12 +126,12 @@ Provisioned a departmental shared mailbox and resolved user access failure throu
 
 **Key Skills**
 
-* Shared mailbox creation
-* Delegation management
-* Send-As permissions
-* Exchange administration
+* Shared mailbox creation  
+* Delegation management  
+* Send-As permissions  
+* Exchange administration  
 
-📄 **Project File**
+📄 **Project File**  
 `16-Shared-Mailbox-Delegation.md`
 
 ---
@@ -142,12 +142,12 @@ Simulated cloud storage access failure caused by disabled SharePoint (OneDrive b
 
 **Key Skills**
 
-* OneDrive for Business troubleshooting
-* SharePoint service dependency analysis
-* Storage provisioning diagnostics
-* Cloud sync restoration
+* OneDrive for Business troubleshooting  
+* SharePoint service dependency analysis  
+* Storage provisioning diagnostics  
+* Cloud sync restoration  
 
-📄 **Project File**
+📄 **Project File**  
 `17-OneDrive-Sync-Troubleshooting.md`
 
 ---
@@ -156,11 +156,11 @@ Simulated cloud storage access failure caused by disabled SharePoint (OneDrive b
 
 All troubleshooting scenarios were validated using administrative service checks and user workload verification, including:
 
-* License assignment review
-* Service workload toggling
-* Admin center diagnostics
-* Mailbox provisioning validation
-* Storage access testing
+* License assignment review  
+* Service workload toggling  
+* Admin center diagnostics  
+* Mailbox provisioning validation  
+* Storage access testing  
 
 Screenshots and admin console evidence are included within each lab to support troubleshooting conclusions.
 
@@ -168,15 +168,15 @@ Screenshots and admin console evidence are included within each lab to support t
 
 # 📊 Skills Demonstrated
 
-* Microsoft 365 Administration
-* Azure AD Identity Management
-* License & Service Assignment
-* Microsoft Teams Support
-* Exchange Online Administration
-* Shared Mailbox Delegation
-* OneDrive & SharePoint Troubleshooting
-* Cloud Collaboration Support
-* SaaS Service Diagnostics
+* Microsoft 365 Administration  
+* Azure AD Identity Management  
+* License & Service Assignment  
+* Microsoft Teams Support  
+* Exchange Online Administration  
+* Shared Mailbox Delegation  
+* OneDrive & SharePoint Troubleshooting  
+* Cloud Collaboration Support  
+* SaaS Service Diagnostics  
 
 ---
 
@@ -184,24 +184,23 @@ Screenshots and admin console evidence are included within each lab to support t
 
 These labs reflect real-world responsibilities performed by:
 
-* IT Support Technicians
-* Helpdesk Analysts
-* Microsoft 365 Administrators
-* Cloud Support Engineers
-* System Administrators
-* SOC / Blue Team Analysts (Entry Level)
+* IT Support Technicians  
+* Helpdesk Analysts  
+* Microsoft 365 Administrators  
+* Cloud Support Engineers  
+* System Administrators  
+* SOC / Blue Team Analysts (Entry Level)  
 
 ---
 
 # 📌 Author
 
-**Thithushan**
-IT Support & Cybersecurity Portfolio Builder
+**Thithushan**  
+IT Support & Cybersecurity Portfolio Builder  
 
-GitHub Portfolio:
-[https://github.com/Thithus/it_support_portfolio](https://github.com/Thithus/it_support_portfolio)
+GitHub Portfolio:  
+https://github.com/Thithus/it_support_portfolio
 
 ---
 
 ⭐ Additional Microsoft 365, Azure, and Security labs will continue to be added as part of ongoing cloud administration skill development.
-
