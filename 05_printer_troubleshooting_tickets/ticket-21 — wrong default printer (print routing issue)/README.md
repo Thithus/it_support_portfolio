@@ -1,7 +1,7 @@
-# Ticket-20 — Printer Unavailable (Feature Disabled Simulation)
+# Ticket-21 — Wrong Default Printer (Print Routing Issue)
 
 ## Objective
-Diagnose and resolve a printing failure caused by printer driver/feature unavailability.
+Diagnose and resolve a printing issue caused by incorrect default printer configuration.
 
 ---
 
@@ -9,100 +9,108 @@ Diagnose and resolve a printing failure caused by printer driver/feature unavail
 
 - Operating System: Windows 10 / Windows 11
 - Device Type: Client Workstation (VM)
-- Printer Type: Microsoft Print to PDF
+- Printers Used:
+  - Microsoft Print to PDF
+  - Microsoft XPS Document Writer
 - User Context: Standard Local User
-- Admin Context: Local Administrator
 
 ---
 
 ## Issue Summary
 
-A user reported inability to print documents due to the printer appearing unavailable.
+A user reported that printed documents were not generating expected output due to incorrect printer routing.
 
 ---
 
-## User Impact Validation
+## Environment Preparation
 
-### 1) Verify Printer Availability
+### 1) Enable Secondary Printer
 
-Navigated to:
-
-Settings → Bluetooth & devices → Printers & scanners
-
-Confirmed Microsoft Print to PDF was installed and operational.
+Enabled Microsoft XPS Document Writer via Windows Features.
 
 **Screenshot:**  
-![Printer Online](images/01-printer-online.png)
+![XPS Enabled](images/01-xps-feature-enabled.png)
 
 ---
 
-### 2) Simulate Printer Unavailability
+### 2) Verify Printer Availability
 
-Disabled Microsoft Print to PDF via Windows Features.
+Confirmed both printers were installed.
 
 **Screenshot:**  
-![Feature Disabled](images/02-feature-disabled.png)
+![Printers Available](images/02-printers-available.png)
 
 ---
 
-### 3) Confirm Printer Missing
+### 3) Disable Automatic Default Assignment
 
-Verified printer was no longer available.
+Turned off Windows automatic default printer management.
 
 **Screenshot:**  
-![Printer Missing](images/03-printer-missing.png)
+![Auto Default Disabled](images/03-auto-default-disabled.png)
 
 ---
 
-### 4) Attempt Printing
+## Issue Simulation
 
-User attempted to print but no PDF printer was available.
+### 4) Set Wrong Default Printer
+
+Configured XPS Writer as default.
 
 **Screenshot:**  
-![Print Failed](images/04-print-failed-missing.png)
+![Wrong Default](images/04-wrong-default-set.png)
 
 ---
 
-## Administrative Troubleshooting
+### 5) Attempt Printing
 
-### 5) Re-Enable Printer Feature
-
-Re-enabled Microsoft Print to PDF via Windows Features.
+User printed document which routed to XPS output instead of PDF.
 
 **Screenshot:**  
-![Feature Enabled](images/05-feature-enabled.png)
+![Wrong Routing](images/05-print-routed-wrong-printer.png)
 
 ---
 
-### 6) Verify Printer Restoration
+## Troubleshooting
 
-Confirmed printer returned to operational state.
+### 6) Review Default Configuration
+
+Verified incorrect default printer assignment.
 
 **Screenshot:**  
-![Printer Restored](images/06-printer-restored.png)
+![Default Review](images/06-default-printer-review.png)
+
+---
+
+### 7) Restore Correct Default Printer
+
+Set Microsoft Print to PDF as default.
+
+**Screenshot:**  
+![Correct Default](images/07-correct-default-set.png)
 
 ---
 
 ## Resolution Validation
 
-### 7) Perform Test Print
+### 8) Perform Test Print
 
-User successfully printed after restoration.
+User successfully printed to correct PDF output.
 
 **Screenshot:**  
-![Print Success](images/07-print-success.png)
+![Print Success](images/08-print-success-pdf.png)
 
 ---
 
 ## Root Cause
 
-Printer driver/feature was unavailable due to feature being disabled.
+Incorrect default printer configuration caused print routing issues.
 
 ---
 
 ## Resolution
 
-Re-enabled Microsoft Print to PDF feature and restored printing services.
+Reconfigured default printer to the appropriate output device.
 
 ---
 
@@ -114,7 +122,7 @@ Printing functionality restored successfully.
 
 ## Key Learning
 
-- Printer driver/feature troubleshooting
-- Windows Features dependency
-- Endpoint printer restoration
-- Print service validation
+- Default printer routing troubleshooting
+- User configuration validation
+- Output path analysis
+- Endpoint printer management
