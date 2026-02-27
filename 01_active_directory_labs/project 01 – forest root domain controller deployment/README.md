@@ -1,4 +1,3 @@
-````md
 # Project 01 – Forest Root Domain Controller Deployment
 
 ---
@@ -32,9 +31,9 @@ To install and configure Active Directory Domain Services and promote the server
 Active Directory Domain Services and DNS roles were successfully installed via Server Manager.
 
 📸 **Screenshot Location:**  
-`images/01-server-manager-dashboard.png`
+`images/1-AD-role.png`
 
-![Server Manager Dashboard](images/1-Ad-role.png)
+![Server Manager Dashboard](images/1-AD-role.png)
 
 ---
 
@@ -43,7 +42,7 @@ Active Directory Domain Services and DNS roles were successfully installed via S
 Network adapter status was verified to ensure connectivity before and after deployment.
 
 📸 **Screenshot Location:**  
-`images/02-network-status.png`
+`images/2-network.png`
 
 ![Network Status](images/2-network.png)
 
@@ -54,7 +53,7 @@ Network adapter status was verified to ensure connectivity before and after depl
 The server was promoted to a Domain Controller and restarted successfully. Domain login was verified.
 
 📸 **Screenshot Location:**  
-`images/03-domain-login.png`
+`images/3-domain_log.png`
 
 ![Domain Login](images/3-domain_log.png)
 
@@ -69,7 +68,7 @@ The server was promoted to a Domain Controller and restarted successfully. Domai
 Verified domain structure inside **Active Directory Users and Computers**.
 
 📸 **Screenshot Location:**  
-`images/04-aduc-console.png`
+`images/4-ADUC.png`
 
 ![ADUC Console](images/4-ADUC.png)
 
@@ -80,7 +79,7 @@ Verified domain structure inside **Active Directory Users and Computers**.
 Forward Lookup Zones confirmed for the domain.
 
 📸 **Screenshot Location:**  
-`images/05-dns-manager.png`
+`images/5-DNS_manager.png`
 
 ![DNS Manager](images/5-DNS_manager.png)
 
@@ -91,7 +90,7 @@ Forward Lookup Zones confirmed for the domain.
 Validated AD-integrated DNS records.
 
 📸 **Screenshot Location:**  
-`images/06-dns-zones.png`
+`images/6-DNS_zone.png`
 
 ![DNS Zones](images/6-DNS_zone.png)
 
@@ -103,12 +102,12 @@ Executed command:
 
 ```cmd
 net share
+```
 
+Verified that **SYSVOL** and **NETLOGON** shares were created successfully after domain controller promotion.
 
-Verified SYSVOL and NETLOGON shares were created successfully.
-
-📸 **Screenshot Location:**
-`images/07-sysvol-netlogon.png`
+📸 **Screenshot Location:**  
+`images/7-netlogon.png`
 
 ![SYSVOL Share](images/7-netlogon.png)
 
@@ -122,20 +121,20 @@ The server was successfully promoted to a Forest Root Domain Controller. Active 
 
 ## Infrastructure Impact
 
-* Centralized authentication enabled
-* User and computer management established
-* Foundation for Group Policy deployment created
-* Enterprise identity infrastructure operational
+- Centralized authentication enabled  
+- User and computer management established  
+- Foundation for Group Policy deployment created  
+- Enterprise identity infrastructure operational  
 
 ---
 
 ## Tools & Services Used
 
-* Server Manager
-* Active Directory Domain Services
-* DNS Manager
-* Active Directory Users and Computers
-* Command Prompt
+- Server Manager  
+- Active Directory Domain Services  
+- DNS Manager  
+- Active Directory Users and Computers  
+- Command Prompt  
 
 ---
 
@@ -159,7 +158,4 @@ Project-01-Forest-Root-Domain-Controller/
     ├── 5-DNS_manager.png
     ├── 6-DNS_zone.png
     └── 7-netlogon.png
-```
-
-```
 ```
