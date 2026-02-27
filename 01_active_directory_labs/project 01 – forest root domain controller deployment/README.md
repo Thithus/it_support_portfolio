@@ -101,7 +101,7 @@ Validated AD-integrated DNS records.
 
 Executed command:
 
-cmd
+```cmd
 net share
 
 
@@ -163,4 +163,3 @@ Project-01-Forest-Root-Domain-Controller/
 
 ```
 ```
-
