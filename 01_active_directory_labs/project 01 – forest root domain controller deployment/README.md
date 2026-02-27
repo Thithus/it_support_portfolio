@@ -101,9 +101,9 @@ Validated AD-integrated DNS records.
 
 Executed command:
 
-```cmd
+cmd
 net share
-````
+
 
 Verified SYSVOL and NETLOGON shares were created successfully.
 
@@ -163,3 +163,4 @@ Project-01-Forest-Root-Domain-Controller/
 
 ```
 ```
+
